@@ -1,10 +1,6 @@
 # frozen_string_literal: true
 
+require "active_merchant"
 require_relative "redsys_rest/version"
 
-module ActiveMerchant
-  module RedsysRest
-    class Error < StandardError; end
-    # Your code goes here...
-  end
-end
+require "active_merchant/billing/gateways/redsys_rest"

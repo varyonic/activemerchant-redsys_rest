@@ -3,13 +3,13 @@
 require_relative "lib/active_merchant/redsys_rest/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "active_merchant-redsys_rest"
+  spec.name          = "activemerchant-redsys_rest"
   spec.version       = ActiveMerchant::RedsysRest::VERSION
   spec.authors       = ["Piers Chambers"]
   spec.email         = ["piers@varyonic.com"]
 
   spec.summary       = %q{Active Merchant extension to support Redsys payment gateway}
-  spec.homepage      = "https://github.com/varyonic/active_merchant-redsys_rest"
+  spec.homepage      = "https://github.com/varyonic/activemerchant-redsys_rest"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"

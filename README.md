@@ -7,7 +7,7 @@ Active Merchant extension to support Redsys payment gateway.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'active_merchant-redsys_rest'
+gem 'activemerchant-redsys_rest'
 ```
 
 And then execute:
@@ -26,4 +26,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/active_merchant-redsys_rest.
+Bug reports and pull requests are welcome on GitHub at https://github.com/varyonic/activemerchant-redsys_rest.

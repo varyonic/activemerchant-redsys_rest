@@ -29,6 +29,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'activemerchant'
+  spec.add_dependency 'rexml' # required for ActiveMerchant for Ruby 3
 
   spec.add_development_dependency('test-unit', '~> 3')
   spec.add_development_dependency('mocha', '~> 1')

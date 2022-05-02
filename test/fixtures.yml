@@ -1,0 +1,10 @@
+# https://docsbs.necomplus.net/tpv-virtual/entorno-de-pruebas/
+redsys:
+  login: 327234688
+  secret_key: sq7HjrUOBfKmC576ILgskD5srU870gJ7
+  terminal: 003
+
+redsys_3ds:
+  login: 327234688
+  secret_key: sq7HjrUOBfKmC576ILgskD5srU870gJ7
+  terminal: 001

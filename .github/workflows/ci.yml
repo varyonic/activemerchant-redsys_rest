@@ -1,11 +1,6 @@
 name: Ruby
 
-on:
-  push:
-    branches:
-      - master
-
-  pull_request:
+on: [push]
 
 jobs:
   build:
@@ -23,5 +18,5 @@ jobs:
       with:
         ruby-version: ${{ matrix.ruby }}
         bundler-cache: true
-    - name: Run the default task
-      run: bundle exec rake
+    - name: Run unit tests only for CI
+      run: bundle exec ruby -I lib -I test test/unit/gateways/redsys_rest_test.rb
